@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TalentTapped | Coming Soon</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      height: 100vh;
+      background: linear-gradient(135deg, #09203f, #537895);
+      color: #ffffff;
+      font-family: "Poppins", sans-serif;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      overflow: hidden;
+    }
+
+    h1 {
+      font-size: 3rem;
+      margin-bottom: 1rem;
+      animation: fadeInDown 1.5s ease-in-out;
+    }
+
+    p {
+      font-size: 1.1rem;
+      max-width: 550px;
+      line-height: 1.6;
+      opacity: 0.9;
+      animation: fadeInUp 2s ease-in-out;
+    }
+
+    .images {
+      display: flex;
+      gap: 25px;
+      margin-top: 3rem;
+      animation: fadeIn 3s ease-in-out;
+    }
+
+    .images img {
+      width: 110px;
+      height: 110px;
+      object-fit: contain;
+      filter: drop-shadow(0 0 10px rgba(255, 255, 255, 0.3));
+      animation: float 3s ease-in-out infinite;
+    }
+
+    .images img:nth-child(2) {
+      animation-delay: 0.5s;
+    }
+
+    .images img:nth-child(3) {
+      animation-delay: 1s;
+    }
+
+    @keyframes fadeInDown {
+      from { opacity: 0; transform: translateY(-30px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    @keyframes fadeInUp {
+      from { opacity: 0; transform: translateY(30px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+
+    @keyframes float {
+      0%, 100% { transform: translateY(0); }
+      50% { transform: translateY(-10px); }
+    }
+
+    footer {
+      position: absolute;
+      bottom: 15px;
+      font-size: 0.9rem;
+      opacity: 0.7;
+    }
+  </style>
+</head>
+<body>
+  <h1>🚀 TalentTapped is Coming Soon</h1>
+  <p>
+    We’re creating a smarter way to find jobs and measure your career potential.<br /> 
+    Stay tuned — the future of hiring is almost here!
+  </p>
+ 
+
+  <footer>© 2025 TalentTapped. All rights reserved.</footer>
+</body>
+</html> 
